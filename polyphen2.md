@@ -16,7 +16,9 @@ PolyPhen-2 predicts the effect of an amino acid substitution on the structure an
 # Orientation and range
 
 * The PolyPhen score represents the probability that a substitution is damaging, so values nearer one are more confidently predicted to be deleterious.
-* dbNSFP HDIV_pred configuration
+
+dbNSFP HDIV_pred configuration:
+
 | Qualitative prediction | HDIV score | rankscore |
 |---|---|---|
 | "D" ("probably damaging" | 0.957 to 1 | 0.52844 to 0.89865 |
@@ -27,7 +29,8 @@ PolyPhen-2 predicts the effect of an amino acid substitution on the structure an
 
 * dbNSFP HDIV_score between 0 and 1.
 
-* dbNSFP HVAR_pred configuration
+dbNSFP HVAR_pred configuration:
+
 | Qualitative prediction | HDIV score | rankscore |
 |---|---|---|
 | "D" ("probably damaging" | 0.909 to 1 | 0.62797 to 0.97092 |
@@ -38,14 +41,17 @@ PolyPhen-2 predicts the effect of an amino acid substitution on the structure an
 
 * dbNSFP HVAR_score between 0 and 1.
 
-* VEP configuration
+VEP configuration:
+
 | Polyphen value | Qualitative prediction | Website display example |
 |---|---|---|
 | greater than 0.908 	"Probably Damaging" | <span style="color:red">**0.95**</span> |
 | greater than 0.446 and less than or equal to 0.908 | "Possibly Damaging" | <span style="color:red">**0.5**</span> |
 | less than or equal to 0.446 | "Benign" | <span style="color:red">**0.25**</span> |
 | unknown | "Unknown" | unknown |
-* IonTorrent
+
+ IonTorrent:
+ 
 | Polyphen value | Qualitative prediction |
 |---|---|
 | 0.0 to 0.15 | Variants with scores in this range are predicted to be benign |
