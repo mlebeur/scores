@@ -12,7 +12,7 @@ Conserved loci
 
 # Short description
 
-"GERP identifies constrained loci in multiple sequence alignments by comparing the level of substitution observed to that expected if there was no functional constraint."
+GERP identifies constrained loci in multiple sequence alignments by comparing the level of substitution observed to that expected if there was no functional constraint.
 
 # Orientation and range
 
@@ -26,19 +26,22 @@ Conserved loci
 # Methodology
 
 Based on the maximum likelihood evolutionary rate estimation for position-specific scoring.
+
 For each position of the multiple alignment we compute the conservation score in rejected substitutions bysubtracting the estimated evolutionary rate from the neutral rate. The neutral rate is computed by removing species gapped at that position from thephylogenetic tree and summing the branch lengths of the resulting projected tree; the evolutionary rate is estimated by computing the maximumlikelihood rescaling of the projected tree. (2) Given position-specific conservation scores, we generate a set of candidate elements. (3) For eachcandidate element, we compute a p-value to represent the likelihood of observing a segment of equal length and greater than or equal score underthe null model. We then select a non-overlapping set of elements in order of increasing p-value.
 
 # VCF description (VEP)
 
 `##GERP++_NR=(from dbNSFP) GERP++ neutral rate`
+
 `##GERP++_RS=(from dbNSFP) GERP++ RS score, the larger the score, the more conserved the site. Scores range from -12.3 to 6.17.`
+
 `##GERP++_RS_rankscore=(from dbNSFP) GERP++ RS scores were ranked among all GERP++ RS scores in dbNSFP. The rankscore is the ratio of the rank of the score over the total number of GERP++ RS scores in dbNSFP.`
 
 # Long Description
 
 Genomic Evolutionary Rate Profiling (GERP) is a method for producing position-specific estimates of evolutionary constraint using maximum likelihood evolutionary rate estimation. It also discovers "constrained elements" where multiple positions combine to give a signal that is indicative of a putative functional element; this track shows the position-specific scores only, not the element predictions.
 
-Constraint intensity at each individual alignment position is quantified in terms of a "rejected substitutions" (RS) score, defined as the number of substitutions expected under neutrality minus the number of substitutions "observed" at the position.
+Constraint intensity at each individual alignment position is quantified in terms of a **"rejected substitutions" (RS) score**, defined as the number of substitutions expected under neutrality minus the number of substitutions "observed" at the position.
 
 Sites are scored independently. Positive scores represent a substitution deficit (i.e., fewer substitutions than the average neutral site) and thus indicate that a site may be under evolutionary constraint. Negative scores indicate that a site is probably evolving neutrally; negative scores should not be interpreted as evidence of accelerated rates of evolution because of too many strong confounders, such as alignment uncertainty or rate variance. Positive scores scale with the level of constraint, such that the greater the score, the greater the level of evolutionary constraint inferred to be acting on that site.
 
