@@ -16,16 +16,41 @@ PolyPhen-2 predicts the effect of an amino acid substitution on the structure an
 # Orientation and range
 
 * The PolyPhen score represents the probability that a substitution is damaging, so values nearer one are more confidently predicted to be deleterious.
+* dbNSFP HDIV_pred configuration
+| Qualitative prediction | HDIV score | rankscore |
+|---|---|---|
+| "D" ("probably damaging" | 0.957 to 1 | 0.52844 to 0.89865 |
+| "P" ("possibly damaging" | 0.453 to 0.956 | 0.34282 to 0.52689 |
+| "B" ("benign" | 0 to 0.452 | 0.02634 to 0.34268 |
+| "neutral" | below 0.5 | below 0.3528 |
+| "deleterious" | up to 0.5 | up to 0.3528 |
+
+* dbNSFP HDIV_score between 0 and 1.
+
+* dbNSFP HVAR_pred configuration
+| Qualitative prediction | HDIV score | rankscore |
+|---|---|---|
+| "D" ("probably damaging" | 0.909 to 1 | 0.62797 to 0.97092 |
+| "P" ("possibly damaging" | 0.447 to 0.908 | 0.44195 to 0.62727 |
+| "B" ("benign" | 0 to 0.446 | 0.01257 to 0.44151 |
+| "neutral" | below 0.5 | below 0.45833 |
+| "deleterious" | up to 0.5 | up to 0.45833 |
+
+* dbNSFP HVAR_score between 0 and 1.
+
 * VEP configuration
-Polyphen value | Qualitative prediction | Website display example
-greater than 0.908 	"Probably Damaging" | <span style="color:red">**0.95**</span>
-greater than 0.446 and less than or equal to 0.908 | "Possibly Damaging" | <span style="color:red">**0.5**</span>
-less than or equal to 0.446 | "Benign" | <span style="color:red">**0.25**</span>
-unknown | "Unknown" | unknown
+| Polyphen value | Qualitative prediction | Website display example |
+|---|---|---|
+| greater than 0.908 	"Probably Damaging" | <span style="color:red">**0.95**</span> |
+| greater than 0.446 and less than or equal to 0.908 | "Possibly Damaging" | <span style="color:red">**0.5**</span> |
+| less than or equal to 0.446 | "Benign" | <span style="color:red">**0.25**</span> |
+| unknown | "Unknown" | unknown |
 * IonTorrent
-0.0 to 0.15 | Variants with scores in this range are predicted to be benign.
-0.15 to 1.0 | Variants with scores in this range are possibly damaging.
-0.85 to 1.0 | Variants with scores in this range are more confidently predicted to be damaging.
+| Polyphen value | Qualitative prediction |
+|---|---|
+| 0.0 to 0.15 | Variants with scores in this range are predicted to be benign |
+| 0.15 to 1.0 | Variants with scores in this range are possibly damaging |
+| 0.85 to 1.0 | Variants with scores in this range are more confidently predicted to be damaging |
 
 # Methodology
 
