@@ -21,9 +21,9 @@ dbNSFP HDIV_pred configuration:
 
 | Qualitative prediction | HDIV score | rankscore |
 |---|---|---|
-| "D" ("probably damaging" | 0.957 to 1 | 0.52844 to 0.89865 |
-| "P" ("possibly damaging" | 0.453 to 0.956 | 0.34282 to 0.52689 |
-| "B" ("benign" | 0 to 0.452 | 0.02634 to 0.34268 |
+| "D" ("probably damaging") | 0.957 to 1 | 0.52844 to 0.89865 |
+| "P" ("possibly damaging") | 0.453 to 0.956 | 0.34282 to 0.52689 |
+| "B" ("benign") | 0 to 0.452 | 0.02634 to 0.34268 |
 | "neutral" | below 0.5 | below 0.3528 |
 | "deleterious" | up to 0.5 | up to 0.3528 |
 
@@ -33,9 +33,9 @@ dbNSFP HVAR_pred configuration:
 
 | Qualitative prediction | HDIV score | rankscore |
 |---|---|---|
-| "D" ("probably damaging" | 0.909 to 1 | 0.62797 to 0.97092 |
-| "P" ("possibly damaging" | 0.447 to 0.908 | 0.44195 to 0.62727 |
-| "B" ("benign" | 0 to 0.446 | 0.01257 to 0.44151 |
+| "D" ("probably damaging") | 0.909 to 1 | 0.62797 to 0.97092 |
+| "P" ("possibly damaging") | 0.447 to 0.908 | 0.44195 to 0.62727 |
+| "B" ("benign") | 0 to 0.446 | 0.01257 to 0.44151 |
 | "neutral" | below 0.5 | below 0.45833 |
 | "deleterious" | up to 0.5 | up to 0.45833 |
 
@@ -176,6 +176,6 @@ If the lack of data does not allow to make a prediction then the outcome is repo
 
 [Tool](http://genetics.bwh.harvard.edu/pph2/)
 
-[Wiki] http://genetics.bwh.harvard.edu/pph2/dokuwiki/downloads
+[Wiki](http://genetics.bwh.harvard.edu/pph2/dokuwiki/downloads)
 
 [Publication](https://pubmed.ncbi.nlm.nih.gov/20354512/)
