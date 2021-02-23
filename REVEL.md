@@ -7,15 +7,15 @@ REVEL
 
 1
 
-#Usefull for
+# Usefull for
 
 Pahtogenicity
 
-# Short description:
+# Short description
 
 The Rare Exome Variant Ensemble Learner REVEL is an ensemble method for predicting the pathogenicity of missense variants. It integrates scores from MutPred, FATHMM v2.3, VEST 3.0, PolyPhen-2, SIFT, PROVEAN, MutationAssessor, MutationTaster, LRT, GERP++, SiPhy, phyloP, and phastCons
 
-# Orientation and range:
+# Orientation and range
 
 * Score range from 0 to 1 and variants with higher scores are predicted to be more likely to be pathogenic.
 
