@@ -7,6 +7,7 @@ List of scores:
 Format:
 * Name
 * Version
+* Type = {Score | Metascore}
 * Category = {conservation | Functionnal | ... to define}
 * Usefull for = {to define}
 * Short description
