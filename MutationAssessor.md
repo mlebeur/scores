@@ -19,6 +19,7 @@ We display the prediction, which is one of 'neutral', 'low', 'medium' and 'high'
 The MAori score ranges from -5.135 to 6.49.
 
 | Range | functional impact of a variant |
+| --- | --- |
 | 3.5 to 6.49 | High (H) |
 | 1.935 to 3.5 | Medium (M) |
 | 0.8 yo 1.935 | Low (L) |
@@ -27,6 +28,7 @@ The MAori score ranges from -5.135 to 6.49.
 The rankscoreranges from 0 to 1.
 
 | Range | functional impact of a variant |
+| --- | --- |
 | 0.92922 to 1 | High (H) |
 | 0.51944 to 0.92922 | Medium (M) |
 | 0.19719 to 0.51944 | Low (L) |
@@ -35,6 +37,7 @@ The rankscoreranges from 0 to 1.
 The prediction.
 
 | Predicted | functional impact of a variant |
+| --- | --- |
 | functional | high ("H") or medium ("M") |
 | non-functional | low ("L") or neutral ("N") | 
 
