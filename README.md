@@ -8,7 +8,7 @@ Format:
 * Name
 * Version
 * Type = {Score | Metascore}
-* Category = {conservation | Functionnal | ... to define}
+* Category = {Conservation | Functionnal }
 * Usefull for = {to define}
 * Short description
 * Orientation and range
