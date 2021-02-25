@@ -21,11 +21,21 @@ Format:
 
 As some score are based on other scores the following array should ive a nice overview of their interactions:
 
-| Metascores/scores | Number of annotations | GERP | phastCons | phyloP | Grantham | SIFT | PolyPhen | MutationTaster | MutationAssessor | FATHMM | LRT | SiPhy | 1000G AF | ESP AF | ClinVar | HGMD | gnomAD/BRAVO variant density | VEST | PROVEAN | MutPred | Gene Annotation? | bstatistic | mirSVR | targetScan | chromHMM | Encode expresion | Encode  nucleosome position | Encode  histone modification | Encode open chromatine | Encode DNAse hypersensitiv | Encode promoter-associated regulatory features | JASPAR | Segway | tOverlapMotifs | TFBS | mutationDensity | nearestMutation | dbscSNV | GC | CpG | NNSplice |
+| Metascores/scores | Number of annotations | [GERP](GERP.md) | [phastCons](phyloP_PhasCons) | [phyloP](phyloP_PhasCons) | Grantham | [SIFT](SIFT.md) | [PolyPhen](polyphen2.md) | [MutationTaster](MutationTaster.md) | [MutationAssessor](MutationAssessor.md) | [FATHMM](FATHMM.md) | [LRT](LRT.md) | SiPhy | 1000G AF | ESP AF | ClinVar | HGMD | gnomAD/BRAVO variant density | [VEST](VEST.md) | PROVEAN | MutPred | Gene Annotation? | bstatistic | mirSVR | targetScan | chromHMM | Encode expresion | Encode  nucleosome position | Encode  histone modification | Encode open chromatine | Encode DNAse hypersensitiv | Encode promoter-associated regulatory features | JASPAR | Segway | tOverlapMotifs | TFBS | mutationDensity | nearestMutation | dbscSNV | GC | CpG | NNSplice |
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| DANN | 63 | X | X | X | X | X |  |  |  |  |  |  | X | X |  |  | X |  |  |  | X | X | X | X | X | X | X | X | X | X |  |  | X | X | X | X | X | X | X | X |  |
-| CADD | 63 | X | X | X | X | X |  |  |  |  |  |  | X | X |  |  | X |  |  |  | X | X | X | X | X | X | X | X | X | X |  |  | X | X | X | X | X | X | X | X |  |
-| MetaLR/SVM | 10 | X |  | X |  | X | X | X | X | X | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| REVEL | 13 | X | X | X |  | X | X | X | X | X | X | X |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| [DANN](DANN.md) | 63 | X | X | X | X | X |  |  |  |  |  |  | X | X |  |  | X |  |  |  | X | X | X | X | X | X | X | X | X | X |  |  | X | X | X | X | X | X | X | X |  |
+| [CADD](CADD.md) | 63 | X | X | X | X | X |  |  |  |  |  |  | X | X |  |  | X |  |  |  | X | X | X | X | X | X | X | X | X | X |  |  | X | X | X | X | X | X | X | X |  |
+| [MetaLR/SVM](Meta.md) | 10 | X |  | X |  | X | X | X | X | X | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| [REVEL](REVEL.md) | 13 | X | X | X |  | X | X | X | X | X | X | X |  |  |  |  |  | X | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | MutationTaster2 |  |  | X | X |  |  |  |  |  |  |  |  | X |  | X | X |  |  |  |  |  |  |  |  |  |  |  | X |  | X | X | X |  |  |  |  |  |  |  |  | X |
 
+
+Some scores are more or less correlated as we can see on :
+
+* the Meta publication dataset :  
+
+![Meta sores correlation plot](Meta_correlation_plot.png)
+
+* the Eigen publication dataset :  
+
+![Eigen scores corelation plot](Eigen_correlation_plot_scores.png)
