@@ -52,12 +52,13 @@ An array resume of [Performance evaluation of pathogenicity-computation methods 
 | CADD | Metascore | Both | Linear kernel support vector machine | > 20 | ≤ 20 | 16,627,775 high-frequency human-derived alleles and 49,407,057 “simulated” variants | SNVs from MLL2 gene (Makrythanasis et al), ESP, HBB gene and ClinVar database (release date June 16 2012), somatic mutations from p53, variants from two enhancers and one promoter  |  0.877 |	0.841 | Current version: Webserver v1.3 CADD v1.1: Dec 2, 2014,  a slightly extended and updated annotation set |
 | DANN | Metascore | Both | Deep neural network | > 0.99 | < 0.99 | 16,627,775 high-frequency human-derived alleles and 49,407,057 “simulated” variants | 3,325,555 “observed” variants and “simulated” variants | 0.807 |	0.752 | not updated |
 | Eigen | Metascore | Both | Hierarchical model | > 0 | < 0 | Variants from dbNSFP v2.7 | variants from ClinVar database, MLL2, CFTR, BRCA1 and BRCA2 genes for Mendelian diseases, de novo mutations associated with ASD, EPI, ID and SCZ, GWAS and eQTL SNPs, noncoding cancer mutations from the COSMIC database |  0.871 |	0.849 | Current version: Eigen and Eigen-PC v1.1 |
-| FATHMM-MKL | Metascore | Both | Multiple kernel learning | > 0.5 | ≤ 0.5 | SNVs from HGMD (release 2013.4) and 1000G | SNVs from HGMD (release 2013.4), 1000G and ClinVar | Current version: FATHMM v2.3 |
-| GenoCanyon | Metascore | Both | Statistical Model | > 0.999 | ≤ 0.999 | ENCODE project | variants from ClinVar in June 2014 |  0.822 |	0.804 |  0.822 |	0.804 |Not updated |
-| M-CAP | Metascore | Both | Gradient boosting trees | > 0.025 | ≤ 0.025 | SNVs from HGMD Pro version 2015.2 and ExAC version 0.3 (Jan 13, 2015 release) | rare SNVs from HGMD Pro version 2015.2, 1000G, patient exomes and Mendelian mutations associated with BRCA1,  BRCA2, CFTR, MLL2 | 0.683 |	0.679 | Not updated |
-| MetaLR | Metascore | Both | logistic regression | > 0.5 | ≤ 0.5 | SNVs from UniProt database | SNVs from 57 publications (after 1 January 2011) from the journal Nature Genetics, CHARGE sequencing project and VariBench dataset II | 0.814 |	0.803 | Not updated |
-| MetaSVM | Metascore | Both | support vector machine | > 0 | ≤ 0 | SNVs from Uniprot database | SNVs from 57 publications (after 1 January 2011) for the journal Nature Genetics, CHARGE sequencing project and VariBench dataset II |  0.874 |	0.898 | Not updated |
-| REVEL | Metascore | Both | Random Forest | > 0.4 | < 0.4 | SNVs from HGMD version 2015.2, Missense exome sequencing variants from ESP、ARIC、KGP | SNVs from SwissVar disease (release 2015_10), ClinVar database and variants from ESP、ARIC、KGP  | Not updated |  0.858 |	0.578 |
+| FATHMM-MKL | Metascore | Both | Multiple kernel learning | > 0.5 | ≤ 0.5 | SNVs from HGMD (release 2013.4) and 1000G | SNVs from HGMD (release 2013.4), 1000G and ClinVar | 0.822 |	0.804 | Current version: FATHMM v2.3 |
+| GenoCanyon | Metascore | Both | Statistical Model | > 0.999 | ≤ 0.999 | ENCODE project | variants from ClinVar in June 2014 | 0.683 |	0.679 | Not updated |
+| M-CAP | Metascore | Both | Gradient boosting trees | > 0.025 | ≤ 0.025 | SNVs from HGMD Pro version 2015.2 and ExAC version 0.3 (Jan 13, 2015 release) | rare SNVs from HGMD Pro version 2015.2, 1000G, patient exomes and Mendelian mutations associated with BRCA1,  BRCA2, CFTR, MLL2 | 0.814 |	0.803 | Not updated |
+| MetaLR | Metascore | Both | logistic regression | > 0.5 | ≤ 0.5 | SNVs from UniProt database | SNVs from 57 publications (after 1 January 2011) from the journal Nature Genetics, CHARGE sequencing project and VariBench dataset II | 0.874 |	0.898 | Not updated |
+| MetaSVM | Metascore | Both | support vector machine | > 0 | ≤ 0 | SNVs from Uniprot database | SNVs from 57 publications (after 1 January 2011) for the journal Nature Genetics, CHARGE sequencing project and VariBench dataset II | 0.858 |	0.578 | Not updated |
+| REVEL | Metascore | Both | Random Forest | > 0.4 | < 0.4 | SNVs from HGMD version 2015.2, Missense exome sequencing variants from ESP、ARIC、KGP | SNVs from SwissVar disease (release 2015_10), ClinVar database and variants from ESP、ARIC、KGP |  0.920 |	0.901 | Not updated |
+
 
 
 ![image](https://user-images.githubusercontent.com/23210340/109470976-638c5880-7a70-11eb-976c-2e9a4dae57a8.png)
@@ -67,6 +68,9 @@ An array resume of [Performance evaluation of pathogenicity-computation methods 
 ![image](https://user-images.githubusercontent.com/23210340/109470117-460abf00-7a6f-11eb-927c-62b9061ee12b.png)
 
 
+[Source S10](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6125674/)
+
+![image](Supplementary Figure S10 Spearman rank correlation coefficient based on three benchmark datasets.png)
 
 
 Some scores are more or less correlated as we can see on :
