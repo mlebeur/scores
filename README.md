@@ -70,7 +70,7 @@ An array resume of [Performance evaluation of pathogenicity-computation methods 
 
 [Source S10](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6125674/)
 
-![image](Supplementary Figure S10 Spearman rank correlation coefficient based on three benchmark datasets.pdf)
+![image](Supplementary\ Figure\ S10\ Spearman\ rank\ correlation\ coefficient\ based on\ three benchmark\ datasets.pdf)
 
 
 Some scores are more or less correlated as we can see on :
