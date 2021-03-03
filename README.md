@@ -49,8 +49,8 @@ Some scores are more or less correlated as we can see on :
 
 ![Eigen scores correlation plot](Eigen_correlation_plot_scores.png)
 
-* the MPC publication dataset :  
+* the MVP publication dataset :  
 
-![MPC scores correlation plot](MPC_correlation.png)
+![MVP scores correlation plot](MVP_correlation.png)
 
 <a href="https://github.com/mlebeur/scores/blob/main/Supplementary%20Figure%20S10%20Spearman%20rank%20correlation%20coefficient%20based%20on%20three%20benchmark%20datasets.pdf">Another tool correlation</a>
