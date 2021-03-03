@@ -24,7 +24,7 @@ The larger the score the more likely the SNP has damaging effect.
 | - | - | - | 
 | > 0.5 | < 0.05 | actionable hypotheses |
 | > 0.75 | < 0.05 | confident hypotheses |
-| > 0.75 | p < 0.01 | confident hypotheses |
+| > 0.75 | p < 0.01 | very confident hypotheses |
 
 MutPred_rankscore ranges from 0 to 1.
 
