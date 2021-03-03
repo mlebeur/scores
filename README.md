@@ -35,16 +35,9 @@ An array resume of [Performance evaluation of pathogenicity-computation methods 
 
 <a href="https://github.com/mlebeur/scores/blob/main/Tools%20summary.pdf">Tools resume</a>
 
-![image](https://user-images.githubusercontent.com/23210340/109470976-638c5880-7a70-11eb-976c-2e9a4dae57a8.png)
+<> [Source S10](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6125674/)
 
-[Source S10](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6125674/)
-
-![image](https://user-images.githubusercontent.com/23210340/109470117-460abf00-7a6f-11eb-927c-62b9061ee12b.png)
-
-
-[Source S10](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6125674/)
-
-<a href="https://github.com/mlebeur/scores/blob/main/Supplementary%20Figure%20S10%20Spearman%20rank%20correlation%20coefficient%20based%20on%20three%20benchmark%20datasets.pdf">Another tool correlation</a>
+<>[Source S10](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6125674/)
 
 Some scores are more or less correlated as we can see on :
 
@@ -55,3 +48,5 @@ Some scores are more or less correlated as we can see on :
 * the Eigen publication dataset :  
 
 ![Eigen scores corelation plot](Eigen_correlation_plot_scores.png)
+
+<a href="https://github.com/mlebeur/scores/blob/main/Supplementary%20Figure%20S10%20Spearman%20rank%20correlation%20coefficient%20based%20on%20three%20benchmark%20datasets.pdf">Another tool correlation</a>
