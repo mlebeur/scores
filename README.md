@@ -33,6 +33,8 @@ As some score are based on other scores the following array should ive a nice ov
 
 An array resume of [Performance evaluation of pathogenicity-computation methods for missense variants](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6125674/)
 
+![Tools resume](Tools summary.pdf)
+
 | Methods | Type | Category | Core model | Damaging | Tolerable | Training data | Testing data | AUC clinvar benchmark | AUC TP53 benchmark | Version |
 | - | - | - | - | - | - | - | - | - | - | - |
 | FATHMM | Score | Functionnal | Hidden Markov models | ≤ 1.5 | > 1.5 | SNVs from HGMD (November 2011) and UniProt (November 2011) | SNVs from VariBench database (November 2011), SwissVar (February 2011) and four cancer-associated genes (BRCA1, MSH2, MLH1, and TP53) (Hicks et al. 2011) | 0.694 |	0.877 | Current version: FATHMM v2.3 |
