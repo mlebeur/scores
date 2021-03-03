@@ -1,4 +1,4 @@
-# scores
+# Scores
 
 Description of scores used for genomic interpretation of variants.
 
