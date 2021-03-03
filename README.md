@@ -33,7 +33,7 @@ As some score are based on other scores the following array should ive a nice ov
 
 An array resume of [Performance evaluation of pathogenicity-computation methods for missense variants](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6125674/)
 
-![Tools resume](Tools summary.pdf)
+<a href="https://github.com/mlebeur/scores/Tools summary.pdf>Tools resume</a>
 
 | Methods | Type | Category | Core model | Damaging | Tolerable | Training data | Testing data | AUC clinvar benchmark | AUC TP53 benchmark | Version |
 | - | - | - | - | - | - | - | - | - | - | - |
