@@ -85,5 +85,3 @@ The three categories are: (a) Benchmark data sets from VariBench as positives an
 
 [Publication](http://dx.doi.org/10.1101/259390)
 
-[FATHMM](http://fathmm.biocompute.org.uk)
-
